@@ -189,8 +189,6 @@ class Home(QWidget):
         if count is None:
             return  # User closed the dialog
 
-
-        # Continue with your merging logic, e.g.:
         if count == 2:
             self.merge_two_pdfs()
         elif count == 3:
